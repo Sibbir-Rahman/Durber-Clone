@@ -1,0 +1,209 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: "Kalpurush";}
+img{max-width: 100%;}
+
+@import url('https://fonts.maateen.me/bangla/font.css');
+@font-face {
+    font-family: "myFont";
+    src: url(SolaimanLipi_20-04-07.ttf);
+}
+
+/* Header syle start here..............*/
+
+.header-wraper {
+    overflow: hidden;
+}
+
+.header-primary {
+    width: 100%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 85px;
+    float: left;
+}
+
+.mojib-logo {
+    width: 100px;
+    float: left;
+}
+
+.main-item ul {
+    list-style-type: none;
+}
+
+.main-item ul li a {
+    text-decoration: none;
+    float: left;
+    padding: 22px 10px;
+    color: black;
+    font-family: "Kalpurush";
+    font-size: 19px;
+}
+
+.main-item ul li a:hover{
+    color: orange;
+}
+.main-item ul li a.active{
+    color: orange;
+}
+
+.main-item {
+    width: 935px;
+    float: left;
+    padding: 0px 140px;
+}
+
+/* Header syle End here..............*/
+/* Banar Section Start End here..............*/
+
+banar-item {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banar {
+    position: relative;
+    overflow: hidden;
+}
+
+.banar-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 345px;
+    margin: 100px 520px;
+}
+
+.banar-text h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+button.about {
+    padding: 11px 26px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #777070;
+    margin: 0px 69px;
+}
+
+.banar-item img {
+    filter: brightness(60%);
+}
+
+
+/* Banar Section syle End here..............*/
+/* Sescription Section syle Star here..............*/
+
+.descrip-wraper {
+    padding: 20px 15px;
+    margin: 40px 115px;
+    box-shadow: 0px 0px 1px 1px #dddd;
+}
+
+.descrip-wraper {
+    padding: 20px 15px;
+    margin: 40px 115px;
+    box-shadow: 0px 0px 1px 1px #dddd;
+}
+
+.descrip-wraper p {
+    margin-bottom: 18px;
+    font-size: 17px;
+    color: #504e4e;
+}
+
+.descrip-wraper h4 {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Sescription Section End Star here..............*/
+/* Patner Section syle Start here..............*/
+
+hr{
+    color: rgb(255 250 250 / 0%);
+}
+.Pimage-item {
+    overflow: hidden;
+    width: 100%;
+}
+
+.patner-img-item {
+    width: 22%;
+    margin-right: 25px;
+    padding-top: 20px;
+    overflow: hidden;
+    box-shadow: inset 0px -1px 0px 1px #dddd;
+    float: left;
+}
+
+.img-item a img {
+    width: 65%;
+    margin-left: 40px;
+}
+
+.img-item-wraper {
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+/* Patner Section syle End here..............*/
+/* Footer Section syle Start here..............*/
+
+
+footer {
+    font-size: 14px;
+    background: #f3f5fa
+}
+
+.footer-wraper {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.copyright, .socia-media-link {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.socia-media-link a {
+    background-color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+i.fab.fa-youtube {
+    color: red;
+}
+
+i.fab.fa-instagram {
+    color: red;
+}
+
+i.fab.fa-twitter {
+    color: #00b7f9;
+}
+
+i.fab.fa-facebook-f {
+    color: #4c6fe7;
+}
+
+/* Footer Section syle End here..............*/

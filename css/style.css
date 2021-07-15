@@ -1,0 +1,349 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: "Kalpurush";}
+img{max-width: 100%;}
+
+@import url('https://fonts.maateen.me/bangla/font.css');
+/* @font-face {
+    font-family: "myFont";
+    src: url(SolaimanLipi_20-04-07.ttf);
+} */
+
+/* Header syle start here..............*/
+.header-wraper {
+    overflow: hidden;
+}
+
+.header-primary {
+    width: 100%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 85px;
+    float: left;
+}
+
+.mojib-logo {
+    width: 100px;
+    float: left;
+}
+
+.main-item ul {
+    list-style-type: none;
+}
+
+.main-item ul li a {
+    text-decoration: none;
+    float: left;
+    padding: 22px 10px;
+    color: black;
+    font-family: "Kalpurush";
+    font-size: 19px;
+}
+
+.main-item ul li a:hover{
+    color: orange;
+}
+.main-item ul li a:active{
+    color: orange;
+}
+
+.main-item {
+    width: 935px;
+    float: left;
+    padding: 0px 140px;
+}
+
+/* Header syle End here..............*/
+/* Banar Section Start End here..............*/
+
+banar-item-img {
+    max-width: 100%;
+}
+
+/* Banar Section syle End here..............*/
+/* Continus Section syle Start here..............*/
+
+.continus-Campain-wraper {
+    overflow: hidden;
+}
+
+.section-heading {
+    padding: 45px 0px;
+}
+
+.section-heading h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Kalpurush";
+    color: #37517e;
+    font-size: 32px;
+    position: relative;
+}
+
+.section-heading h1::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section-heading h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #fdbe11;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.cc-item-wraper {
+    overflow: hidden;
+    box-shadow: -4px 9px 19px 2px #dddd;
+    border-bottom: 1px solid #e3e1e1;
+}
+
+.cc-item {
+    overflow: hidden;
+}
+
+.img-item {
+    width: 55%;
+    float: left;
+}
+
+.pragraph-item {
+    width: 40%;
+    overflow: hidden;
+    float: right;
+}
+
+.pp h1 {
+    text-align: center;
+    font-size: 23px;
+    color: #6b6363;
+    font-weight: bold;
+}
+
+.pp p {
+    font-size: 17px;
+    color: #5f5555;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.pp p a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.pp p a:hover{
+    color: orangered;
+}
+
+.img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-items {
+    width: 28%;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #999696dd;
+    padding: 5px;
+    padding-bottom: unset;
+    border-radius: 4px;
+}
+
+/* Continus Section syle End here..............*/
+/* Slider Section syle Start here..............*/
+
+.slider-item {
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.slider-item img {
+    width: 48%;
+    float: left;
+    margin-right: 45px;
+    height: 100%;
+}
+
+.slider-item img:nth-child(2) {
+    margin-right: 0px;
+}
+
+.morebtn {
+    width: 160px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.morebtn button {
+    background-color: orange;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 17px;
+}
+
+/* Slider Section syle End here..............*/
+/* News Section syle Start here..............*/
+.news-item-wraper {
+    overflow: hidden;
+}
+
+.news-items {
+    float: left;
+    width: 23%;
+    margin-right: 30px;
+}
+
+.news-items:last-child {
+    margin-right: 0;
+}
+
+.item {
+    overflow: hidden;
+}
+
+.item-img {
+    padding: 10px;
+    height: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-img img {
+    height: 147px;
+}
+
+.N-pragraph {
+    text-align: center;
+    padding: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* News Section syle End here..............*/
+/* Video Galary Section syle Start here..............*/
+
+.video-gelary-section{
+    border-bottom: 1px solid #dddd;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.video-item {
+    overflow: hidden;
+    width: 352px;
+    float: left;
+    margin-right: 22px;
+    box-shadow: inset 0px 0px 2px 0px;
+    height: 300px;
+}
+
+.video-text p {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Video Galary Section syle End here..............*/
+/* Patner Section syle Start here..............*/
+
+.Pimage-item {
+    overflow: hidden;
+    width: 100%;
+}
+
+.patner-img-item {
+    width: 22%;
+    margin-right: 25px;
+    padding-top: 20px;
+    overflow: hidden;
+    box-shadow: inset 0px -1px 0px 1px #dddd;
+    float: left;
+}
+
+.img-item a img {
+    width: 65%;
+    margin-left: 40px;
+}
+
+.img-item-wraper {
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+/* Patner Section syle End here..............*/
+/* Footer Section syle Start here..............*/
+
+
+footer {
+    font-size: 14px;
+    background: #f3f5fa
+}
+
+.footer-wraper {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.copyright, .socia-media-link {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.socia-media-link a {
+    background-color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+i.fab.fa-youtube {
+    color: red;
+}
+
+i.fab.fa-instagram {
+    color: red;
+}
+
+i.fab.fa-twitter {
+    color: #00b7f9;
+}
+
+i.fab.fa-facebook-f {
+    color: #4c6fe7;
+}
+
+/* Footer Section syle End here..............*/
